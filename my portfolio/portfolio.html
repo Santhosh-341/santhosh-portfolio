@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="TOP"></div>
+    <header class="kill">
+      <h1 class="welcome">Welcome to My portfolio</h1>
+      <div class="navbarr">
+        <a href="#ABOUT">
+          <button class="btn" type="button">About me</button>
+        </a>
+        <a href="#SKILLS">
+          <button class="btn" type="button">Skills</button>
+        </a>
+        <a href="#PROJECTS">
+          <button class="btn" type="button">Projects</button>
+        </a>
+        <a href="#CONTACT">
+          <button class="btn" type="button">contact me</button>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section id="ABOUT" class="about me">
+        <h1>SANTHOSH REDDY</h1>
+        <img src="santhosh photo.png" alt="my photo" />
+        <p>
+          I am a passionate web developer with a focus on front-end technology
+        </p>
+        <p>
+          I am currently studying B Tech 3 rd year student at
+          <a href="https://audisankaranlr.in/" target="_blank"
+            ><i>Audisankara College Of Engineering & Technology</i></a
+          >
+        </p>
+      </section>
+      <section id="SKILLS" class="skills">
+        <h1>my skills</h1>
+        <ol>
+          <li>Python Basics</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Java Script</li>
+          <li>c</li>
+        </ol>
+      </section>
+      <section id="PROJECTS" class="projects">
+        <br /><br />
+        <h1>My projects</h1>
+        <table border="2px" cellpadding="10" cellspacing="0">
+          <tr>
+            <th>Projects</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>Portfolio</td>
+            <td>
+              I have built my personal portfolio website using HTML,CSS,Java
+              Script
+            </td>
+          </tr>
+          <tr>
+            <td>Simple python Calculater</td>
+            <td>
+              I have built the simple calculater by using the python language
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="CONTACT" class="contact me">
+        <h1>contact me</h1>
+        <p>Feel free to get in touch with me using the below:</p>
+        <form action="">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <label for="mail">Gmail</label>
+          <input
+            type="email"
+            id="mail"
+            placeholder="Enter your gmail"
+            required
+          /><br /><br />
+
+          <label for="query">for any query</label><br /><br />
+          <textarea
+            name="query"
+            id="query"
+            placeholder="For any query please text me"
+          ></textarea>
+          <br /><br />
+
+          <div class="gender">
+            <p>Select your gender</p>
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label><br />
+
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label><br />
+          </div>
+          <div class="intrest">
+            <label for="">choose your intrest</label>
+            <input type="checkbox" id="coding" value="coding" />
+            <label for="coding">coding</label>
+            <input type="checkbox" id="reading" value="reading" />
+            <label for="reading">reading</label><br /><br />
+          </div>
+          <div class="sun">
+            <button type="submit" class="sub">Submit</button>
+            <button type="reset" class="sub">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <a href="#TOP"> <button id="TOP" class="fixedbut">TOP</button> </a>
+    <footer>
+      <h3>&copy;copyright 2024</h3>
+    </footer>
+  </body>
+</html>
